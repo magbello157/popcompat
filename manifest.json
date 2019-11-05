@@ -1,0 +1,20 @@
+{
+  "manifest_version": 1,
+  "name": "Popcompat",
+  "version": "1.0",
+  "description": "An in browser web compatibility bug reporting tool.",
+  "icons": {
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mozilla.org/*"
+      ],
+      "js": [
+        "popcompat.js"
+      ]
+    }
+  ]
+}
