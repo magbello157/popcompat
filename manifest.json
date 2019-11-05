@@ -1,20 +1,19 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
   "name": "Popcompat",
   "version": "1.0",
   "description": "An in browser web compatibility bug reporting tool.",
+  "homepage_url": "https://github.com/meetmuhd/popcompat",
   "icons": {
     "48": "icons/border-48.png",
     "96": "icons/border-96.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*.mozilla.org/*"
-      ],
-      "js": [
-        "popcompat.js"
-      ]
-    }
-  ]
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/popcompat-32.png",
+    "default_title": "Popcompat",
+    "default_popup": "popup/scenario_simulator.html"
+  }
 }

@@ -1,0 +1,31 @@
+html, body {
+  width: 750px;
+  height: 600;
+}
+
+button {
+  margin: 1% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: #ffc900;
+  border-radius: 5px;
+}
+.popup-header {
+  background-color: #ffc900;
+  display: flex;
+  justify-content: center;
+}
+
+.popup-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#body-text {
+  width: 481px;
+  text-align: center;
+}
