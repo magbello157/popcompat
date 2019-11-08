@@ -1,31 +1,52 @@
 html, body {
-  width: 750px;
-  height: 600;
+  width: 800px;
+  height: 600px;
+  font-family: 'Fira Sans', sans-serif;
 }
 
-button {
-  margin: 1% auto;
-  padding: 4px;
-  text-align: center;
-  font-size: 1.5em;
-  cursor: pointer;
-  background-color: #ffc900;
-  border-radius: 5px;
-}
-.popup-header {
-  background-color: #ffc900;
+.header-bg {
+  width: 800px;
+  height: 50px;
+  background: #FFC900;
   display: flex;
+  align-items: center;
   justify-content: center;
+}
+
+.header-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
 }
 
 .popup-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
-#body-text {
-  width: 481px;
+.page-title {
+  font-size: 36px;
+  line-height: 43px;
+  height: 10px;
+}
+
+.body-text {
+  width: 600px;
+  height: 80px;
+  font-size: 24px;
+  line-height: 29px;
   text-align: center;
+}
+
+button {
+  margin: 0.8% auto;
+  padding: 4px;
+  border: none;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: #ffc900;
+  border-radius: 5px;
 }
