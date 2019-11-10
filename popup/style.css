@@ -27,7 +27,7 @@ html, body {
 }
 
 .page-title {
-  font-size: 36px;
+  font-size: 35px;
   line-height: 43px;
   height: 10px;
 }
@@ -66,4 +66,8 @@ button a {
 
 .input-row input {
   width: 270px;
+}
+
+.button-section {
+  margin: 10px auto;
 }
